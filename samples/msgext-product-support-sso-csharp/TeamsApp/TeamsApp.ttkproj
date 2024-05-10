@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" Sdk="Microsoft.TeamsFx.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>c1c3a66c-188e-40f9-8821-a56c40b2c716</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="TeamsApp.ttkproj" />
+    <None Remove="TeamsApp.ttkproj.user" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="ProjectConfigurationsDeclaredDimensions" />
+  </ItemGroup>
+</Project>

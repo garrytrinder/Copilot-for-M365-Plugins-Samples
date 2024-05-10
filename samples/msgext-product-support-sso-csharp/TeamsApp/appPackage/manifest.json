@@ -3,12 +3,12 @@
   "manifestVersion": "1.16",
   "version": "1.0.0",
   "id": "${{TEAMS_APP_ID}}",
-  "packageName": "com.microsoft.teams.extension",
+  "packageName": "com.contoso.support.product.plugin",
   "developer": {
-    "name": "Teams App, Inc.",
-    "websiteUrl": "https://www.example.com",
-    "privacyUrl": "https://www.example.com/termofuse",
-    "termsOfUseUrl": "https://www.example.com/privacy"
+    "name": "Contoso Electronics",
+    "websiteUrl": "https://www.contoso.com",
+    "privacyUrl": "https://www.contoso.com/termofuse",
+    "termsOfUseUrl": "https://www.contoso.com/privacy"
   },
   "icons": {
     "color": "color-${{TEAMSFX_ENV}}.png",
@@ -20,7 +20,7 @@
   },
   "description": {
     "short": "Product look up tool.",
-    "full": "Get real-time product information and share them in a conversation. Search by product name or target audience. ${{APP_DISPLAY_NAME}} works with Microsoft 365 Chat. Find products at Contoso. Find Contoso products called mark8. Find Contoso products named mark8. Find Contoso products related to Mark8. Find Contoso products aimed at individuals. Find Contoso products aimed at businesses. Find Contoso products aimed at individuals with the name mark8. Find Contoso products aimed at businesses with the name mark8."
+    "full": "Get real-time Contoso Electronics product information and share them in a conversation. Search by product name or target audience. ${{APP_DISPLAY_NAME}} works with Microsoft 365 Chat. Find products at Contoso. Find Contoso products called mark8. Find Contoso products named mark8. Find Contoso products related to Mark8. Find Contoso products aimed at individuals. Find Contoso products aimed at businesses. Find Contoso products aimed at individuals with the name mark8. Find Contoso products aimed at businesses with the name mark8."
   },
   "accentColor": "#FFFFFF",
   "bots": [

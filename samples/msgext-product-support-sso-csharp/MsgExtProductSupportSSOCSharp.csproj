@@ -6,12 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectCapability Include="TeamsFx" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="build/**/*" />
-    <Content Remove="build/**/*" />
+    <Compile Remove="TeamsApp\**" />
+    <Content Remove="TeamsApp\**" />
+    <EmbeddedResource Remove="TeamsApp\**" />
+    <None Remove="TeamsApp\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,11 +19,6 @@
     <PackageReference Include="Microsoft.Bot.Builder" Version="4.22.2" />
     <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.22.2" />
     <PackageReference Include="Microsoft.Graph" Version="5.43.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="env\.env.dev.user" />
-    <None Include="env\.env.local.user" />
   </ItemGroup>
 
 </Project>

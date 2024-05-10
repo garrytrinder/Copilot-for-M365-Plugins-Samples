@@ -3,7 +3,7 @@
   "appId": "${{GRAPH_AAD_APP_ID}}",
   "name": "${{APP_INTERNAL_NAME}}-graph-${{TEAMSFX_ENV}}",
   "accessTokenAcceptedVersion": 2,
-  "signInAudience": "AzureADMultipleOrgs",
+  "signInAudience": "AzureADMyOrg",
   "optionalClaims": {
     "idToken": [],
     "accessToken": [
