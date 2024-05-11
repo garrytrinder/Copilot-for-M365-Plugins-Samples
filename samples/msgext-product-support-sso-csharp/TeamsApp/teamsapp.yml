@@ -93,3 +93,4 @@ deploy:
     with:
       artifactFolder: bin/Release/net8.0/win-x86/publish
       resourceId: ${{BOT_AZURE_APP_SERVICE_RESOURCE_ID}}
+projectId: db54435f-439d-4505-ab52-8d3f04684729

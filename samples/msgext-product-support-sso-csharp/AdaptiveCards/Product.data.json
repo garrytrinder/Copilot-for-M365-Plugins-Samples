@@ -1,0 +1,12 @@
+{
+  "ProductImage": "https://placehold.co/600x400?text=Product+Image",
+  "SPOHostname": "tenantname",
+  "SPOSiteUrl": "sites/productmarketing",
+  "Product": {
+    "Title": "Mark8",
+    "RetailCategory": "Consumer",
+    "CustomerRating": 123,
+    "ReleaseDate": "2024-05-10",
+    "Id": 1
+  }
+}

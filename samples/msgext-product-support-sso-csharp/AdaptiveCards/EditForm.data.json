@@ -1,0 +1,13 @@
+{
+  "RetailCategories": [
+    "Consumer",
+    "Enterprise"
+  ],
+  "Product": {
+    "Title": "Mark8",
+    "RetailCategory": "Consumer",
+    "CustomerRating": 123,
+    "ReleaseDate": "2024-05-10",
+    "Id": 1
+  }
+}

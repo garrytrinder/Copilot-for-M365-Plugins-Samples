@@ -13,7 +13,7 @@ provision:
     with:
       name: ${{APP_INTERNAL_NAME}}-bot-${{TEAMSFX_ENV}}
       generateClientSecret: true
-      signInAudience: AzureADMyOrg
+      signInAudience: AzureADMultipleOrgs
     writeToEnvironmentFile:
       clientId: BOT_ID
       clientSecret: SECRET_BOT_PASSWORD
@@ -31,7 +31,7 @@ provision:
     with:
       name: ${{APP_INTERNAL_NAME}}-graph-${{TEAMSFX_ENV}}
       generateClientSecret: true
-      signInAudience: AzureADMyOrg
+      signInAudience: AzureADMultipleOrgs
     writeToEnvironmentFile:
       clientId: GRAPH_AAD_APP_ID
       clientSecret: SECRET_GRAPH_AAD_APP_CLIENT_SECRET
@@ -57,7 +57,7 @@ provision:
 
   - uses: file/createOrUpdateJsonFile
     with:
-      target: ./appsettings.Development.json
+      target: ../appsettings.Development.json
       content:
         BOT_ID: ${{BOT_ID}}
         BOT_PASSWORD: ${{SECRET_BOT_PASSWORD}}
